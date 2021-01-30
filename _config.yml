@@ -9,10 +9,10 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: drvluvpillow
-subtitle: "수포자 길만 걷던 내가 개발자의 길로? 프론트엔드 개발자를 꿈꾸는 새싹입니다. 잘못된 내용에 대한 댓글 언제나 환영합니다!"
+title: devluvpillow
+subtitle: "수포자 길만 걷던 내가 개발자의 길로? 프론트엔드 개발자를 꿈꾸는 새싹입니다. <br>잘못된 내용에 대한 댓글 언제나 환영합니다!"
 email: devluvpillow@gmail.com
-name: Nahyeon Kim
+name: Hyeonii Kim
 description: >
   수포자 길만 걷던 내가 개발자의 길로? 프론트엔드 개발자를 꿈꾸는 새싹입니다
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -78,8 +78,8 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    username: 
+    url: ""
     desc: Follow me on Twitter
     share: false
 
@@ -92,15 +92,15 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
+    username: Hyeonii
     url: https://github.com/Hyeonii
     desc: Fork me on GitHub
     share: true
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: 
+    url: ""
     desc: Connect with me on LinkedIn
     share: false
 
