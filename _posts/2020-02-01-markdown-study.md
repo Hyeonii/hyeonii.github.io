@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "마크다운 문법 탐구"
-date: 2021-01-31 15:14:24
+date: 2021-02-01 15:14:24
 author: devluvpillow
 categories: Study
 ---
@@ -94,24 +94,24 @@ _이탤릭 글씨체_ 별표 한 개와 언더바 두 가지
 
 아래와 같이 원시 HTML 문법도 대부분 동작한다
 
-```markdowm
+```markdown
+<!--그냥 이미지-->
 
-// 그냥 이미지
 ![로고 이미지](https://hyeonii.github.io/assets/logo.png "logo image")
 
-// 그냥 이미지 (원시 HTML)
-<img width="150" src="https://hyeonii.github.io/assets/logo.png" alt="Prunus" title="A Wild Cherry (Prunus avium) in flower">
+<!--그냥 이미지 (원시 HTML)-->
+<img width="150" src="https://hyeonii.github.io/assets/logo.png">
 
-// 이미지 링크
+<!--이미지 링크-->
+
 [![이미지 링크](https://hyeonii.github.io/assets/logo.png)](https://www.instagram.com/devluvpillow/)
-
 ```
 
 #### 1. 그냥 이미지
 
 ![로고 이미지](https://hyeonii.github.io/assets/logo.png "logo image")
 
-<img width="150" src="https://hyeonii.github.io/assets/logo.png" alt="Prunus" title="A Wild Cherry (Prunus avium) in flower">
+<img width="100" src="https://hyeonii.github.io/assets/logo.png">
 
 #### 2. 이미지 링크
 
