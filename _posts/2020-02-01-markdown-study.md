@@ -24,11 +24,24 @@ categories: Study
 5. ~~취소합니다 신기방기~~
 
 <br>
+
+```markdown
+_이탤릭 글씨체_ 별표 한 개와 언더바 두 가지
+**두꺼운 글씨체** 별표 두개
+**_두꺼운 이탤릭체_**
+<u>밑줄 치기</u>
+~~취소합니다 신기방기~~
+```
+
+<br>
 <br>
 
 ### 리스트
 
 ---
+
+단순하게 글 앞에 `1.` `2.` `3.`을 적어주면 된다  
+들여쓰기는 `tab`키로 해준다
 
 1.  1. 목록 1
     2. 목록 2
@@ -57,19 +70,41 @@ categories: Study
 나의 인스타그램: <https://www.instagram.com/devluvpillow/>
 
 <br>
+
+```markdown
+[내 깃허브 페이지](https://hyeonii.github.io/)  
+나의 인스타그램: <https://www.instagram.com/devluvpillow/>
+```
+
+<br>
 <br>
 
 ### 이미지
 
 ---
 
-앞에 !느낌표를 붙여준다
+아래와 같이 원시 HTML 문법도 대부분 동작한다
 
-#### 그냥 이미지
+```markdowm
+
+// 그냥 이미지
+![로고 이미지](https://hyeonii.github.io/assets/logo.png "logo image")
+
+// 그냥 이미지 (원시 HTML)
+<img width="150" src="https://hyeonii.github.io/assets/logo.png" alt="Prunus" title="A Wild Cherry (Prunus avium) in flower">
+
+// 이미지 링크
+[![이미지 링크](https://hyeonii.github.io/assets/logo.png)](https://www.instagram.com/devluvpillow/)
+
+```
+
+#### 1. 그냥 이미지
 
 ![로고 이미지](https://hyeonii.github.io/assets/logo.png "logo image")
 
-#### 이미지 링크
+<img width="150" src="https://hyeonii.github.io/assets/logo.png" alt="Prunus" title="A Wild Cherry (Prunus avium) in flower">
+
+#### 2. 이미지 링크
 
 [![이미지 링크](https://hyeonii.github.io/assets/logo.png)](https://www.instagram.com/devluvpillow/)
 
@@ -80,25 +115,28 @@ categories: Study
 
 ---
 
-1. 코드 강조
+#### 1. 코드 강조
+
+`<code>` 태그를 사용한다
 
 <code> 
-    code 로 넣은 코드
+    code 태그로 로 넣은 코드
     <body>
         <div></div>
     </body>
 </code>
+  
+<br>
 
-</br>
-</br>
+### 2. 인라인 코드 강조
 
-2. 인라인 코드 강조
+` 바틱 기호` 안에 쓴 코드은 이렇게 `inline code`가 된다
 
-` 바틱 기호` 안에 쓴 코드은 `inline code`가 된다
-</br>
-</br>
+<br>
+  
+### 3. 블록코드 강조
 
-3. 블록코드 강조
+코드 블록을 만들어준다
 
 ```html
 <a href="https://www.hyeonii/github.io" target="_blank">내 홈페이지</a>
@@ -118,7 +156,7 @@ categories: Study
 
 ---
 
-아래 markdown 문법을 참고하면 된다
+`|` `---` 기호를 사용하여 표를 만들 수 있다
 
 | 값         |                  의미                  |   기본값 |
 | ---------- | :------------------------------------: | -------: |
@@ -126,6 +164,8 @@ categories: Study
 | `relative` |       요소 자신을 기준으로 배치        |          |
 | `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 |          |
 | `fixed`    |      브라우저 창을 기준으로 배치       |          |
+
+아래 markdown 문법을 참고하면 된다
 
 ```markdown
 | 값         |                  의미                  |   기본값 |
@@ -145,6 +185,8 @@ categories: Study
 
 `<blockQuote>`나 `>`꺽쇠를 이용하여 사용 가능하다
 
+<br>
+
 <blockQuote>
 
 나는 아직 배고프다
@@ -153,7 +195,6 @@ _(진짜 배고픈 사람이 한 말)_
 </blockQuote>
 
 <br>
-<br>
 
 > 꺽쇠로 인용하기
 
@@ -161,6 +202,10 @@ _(진짜 배고픈 사람이 한 말)_
 <br>
 
 ### 수평선
+
+---
+
+<br>
 
 `_` `*` `-` 중 하나를 3개 이상 입력
 
@@ -175,6 +220,10 @@ _(진짜 배고픈 사람이 한 말)_
 
 ### 줄바꿈
 
+---
+
+<br>
+
 `<br>` 이나 `띄어쓰기 두 번` 사용
 
 我的小時候 吵鬧人性的時候  
@@ -184,3 +233,6 @@ wǒ de xiǎo shíhòu chǎonào rénxìng de shíhòu
 wǒ de wàipó zǒnghuì chànggē hōng wǒ <br>
 외할머니는 언제나 노래를 하면서 나를 달래주셨어 <br>
 한자도 잘 나오네요!
+
+<br>
+<br>
