@@ -6,6 +6,15 @@ author: devluvpillow
 categories: Study
 ---
 
+<br>
+
+### heropy 님이 작성하신 'MarkDown 사용법 총정리'를 참고하여 연습해본 글 입니다
+
+원글 링크: <https://heropy.blog/2017/09/30/markdown/>
+
+<br>
+<br>
+
 # 마크다운 문법 탐구
 
 <br>
@@ -189,7 +198,7 @@ _이탤릭 글씨체_ 별표 한 개와 언더바 두 가지
 
 <blockQuote>
 
-나는 아직 배고프다
+나는 아직 배고프다  
 _(진짜 배고픈 사람이 한 말)_
 
 </blockQuote>
