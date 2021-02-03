@@ -12,8 +12,8 @@ categories: CSS
 
 <br>
   
-가끔 A 태그에 hover시 다른 엘리먼트에 CSS 효과를 적용하고 싶을 때가 있다
-`^`, `>`, `~`, `=` 를 통하여 구현 할 수 있다
+가끔 A 태그에 hover시 다른 엘리먼트에 CSS 효과를 적용하고 싶을 때가 있다 <br>
+이럴 땐 `^`, `>`, `~`, `=` 를 통하여 구현 할 수 있다
   
 <br>
 <br>
@@ -63,7 +63,7 @@ CSS는 잘 먹었지만 결과물은 처참했다   <br>
   
 <br>
 
-![망했다](https://hyeonii.github.io/assets/posting-img/f.gif) {: width="100"}
+![망했다](https://hyeonii.github.io/assets/posting-img/f.gif){: width="100px" width="auto"}
 
 <br>
   
