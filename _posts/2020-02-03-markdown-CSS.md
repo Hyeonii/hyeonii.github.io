@@ -3,7 +3,7 @@ layout: post
 title: "Reset CSS와 Normalize CSS의 차이 "
 date: 2021-02-01 15:14:24
 author: devluvpillow
-categories: Study
+categories: CSS
 ---
 
 <br>

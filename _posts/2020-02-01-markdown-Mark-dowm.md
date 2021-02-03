@@ -3,12 +3,12 @@ layout: post
 title: "마크다운 문법 탐구"
 date: 2021-02-01 15:14:24
 author: devluvpillow
-categories: Study
+categories: MARKDOWN
 ---
 
 <br>
 
-### heropy 님이 작성하신 'MarkDown 사용법 총정리'를 참고하여 연습해본 글 입니다
+#### heropy 님이 작성하신 'MarkDown 사용법 총정리'를 참고하여 연습해본 글 입니다
 
 원글 링크: <https://heropy.blog/2017/09/30/markdown/>
 
