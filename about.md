@@ -7,7 +7,7 @@ main_nav: true
 
 <br>
 
-![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
+![alt text]({{ site.baseurl }}/assets/profile-placeholder.png "Profile Picture"){:.profile}
 
 <br>
 
